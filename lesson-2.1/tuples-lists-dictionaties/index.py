@@ -104,18 +104,18 @@ group = ["John", "Mike", "Bob"]
 # practice
 
 
-students = [
-    [
-        "John", 2323
-    ],
-    [
-        "Mike", 3232
-    ],
-    [
-        "Mike", 6000
-    ],
+# students = [
+#     [
+#         "John", 2323
+#     ],
+#     [
+#         "Mike", 3232
+#     ],
+#     [
+#         "Mike", 6000
+#     ],
 
-]
+# ]
 
 # max payment
 # total payment
@@ -123,25 +123,98 @@ students = [
 # Homework
 # name of person with min payment
 
-i = 0
-prev_person = students[0]
-min_payment_person = ""
-max_val = 0
-total = 0
+# i = 0
+# prev_person = students[0]
+# min_payment_person = ""
+# max_val = 0
+# total = 0
 
-for student in range(len(students)):
-    payment = students[student][1]
+# for student in range(len(students)):
+#     payment = students[student][1]
 
-    total += payment
+#     total += payment
 
-    prev_person = students[student]
+#     prev_person = students[student]
 
-    if prev_person[1] > students[student][1]:
-        max_val = students[student][1]
-    else:
-        max_val = prev_person[1]
+#     if prev_person[1] > students[student][1]:
+#         max_val = students[student][1]
+#     else:
+#         max_val = prev_person[1]
 
-print(max_val)
-print(total)
+# print(max_val)
+# print(total)
 
 # print(students)
+
+
+# students = [
+#     [
+#         "John", 2323
+#     ],
+#     [
+#         "Mike", 3232
+#     ],
+#     [
+#         "Mike", 6000
+#     ],
+#     [
+#         "Bob", 1313
+#     ]
+
+# ]
+
+# loop / cycle
+# prev_value = students[0][1]
+
+# for i in range(len(students)):
+#     if students[i][1] < prev_value:
+#         prev_value = students[i][1]
+#     else:
+#         continue
+
+# print(prev_value)
+
+
+# dictionaries
+# dictionary
+
+# key / value
+
+# john = {
+#     "name": "John",
+#     "age": 23,
+#     "pocket": 2323,
+#     "isClerk": True,
+#     "reletive": {
+#         "name": "Mike",
+#         "age": 13,
+#         "pocket": "Twix"
+#     }
+# }
+
+# mike = john["reletive"]
+
+# mike["age"] = 32
+
+# print(mike)
+# print(john)
+
+# key_value_pairs = (
+#     ("name", "John"),
+#     ("surname", "Doe")
+# )
+
+# print(dict(key_value_pairs)["name"])
+
+# john = {
+#     "name": "John",
+#     "age": 23,
+#     "surname": "Doe"
+# }
+
+# john["name"] = "Mike"
+
+# print(john)
+
+# for key in john:
+#     print(key, john[key])
